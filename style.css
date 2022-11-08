@@ -16,8 +16,8 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-color: #080808;
-    background-image: url(images/pixc.jpg);
+    /* background-color: #080808; */
+    /* background-image: url(images/pixc.jpg); */
     background-size: cover;
     background-position: center;
 }
@@ -52,7 +52,8 @@ nav{
 }
 
 .container{
-    background-color: #080808;
+    margin-top: 15vh;
+    /* background-color: #080808; */
 }
 nav ul li{
     display: inline-block;
@@ -81,11 +82,21 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 200px;
+    margin-top: -96vh;
     text-align: center;
     font-size: 30px;
    
 
+}
+
+#particles-js{
+    margin-top: -93vh;
+}
+.xyy{
+    max-width: 20%;
+    height: 50%;
+   margin-left: 0vw;
+   margin-top:1vh;
 }
 
 .header-text h1{
@@ -372,16 +383,23 @@ text-decoration: none;
     color: #f04623;
 }
        @media only screen and (max-width:850px){
-        #header{
+        /* #header{
         background-image:url(images/phone.jpg);
-        }
+        } */
         .header-text{
+            /* position: absolute; */
             margin-top: 50%;
-            font-size:30px;
+            font-size:20px;
 
         }
+        .xyy{
+            max-width: 20%;
+            height: 50%;
+           margin-left: 0vw;
+           margin-top:0vh;
+        }
         .header-text h1{
-            font-size:30px;
+            font-size:20px;
         }
         .containers{
             width:100vw;
