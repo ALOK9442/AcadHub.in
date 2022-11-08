@@ -361,9 +361,11 @@ text-decoration: none;
     font-size: large;
    }
    .copy{
-    height: 5vh;
-    background-color: rgb(17, 17, 18);
-    margin-bottom:0px;
+    padding: 10px;
+    /* height: 5vh; */
+    background-color: rgb(16, 16, 34);
+    
+    /* margin-bottom:0px; */
    }
    .copy span{
     font-size: auto;
@@ -389,8 +391,18 @@ text-decoration: none;
         .header-text{
             /* position: absolute; */
             margin-top: 50%;
-            font-size:20px;
+            font-size:15px;
 
+        }
+    
+        .web{
+            font-size: 15px;
+        }
+        .header-text h1 span{
+            font-size: 20px;
+        }
+        .honey{
+            margin-top: -60%;
         }
         .xyy{
             max-width: 20%;
@@ -399,7 +411,8 @@ text-decoration: none;
            margin-top:0vh;
         }
         .header-text h1{
-            font-size:20px;
+            font-size:15px;
+            margin-top:1vh ;
         }
         .containers{
             width:100vw;
@@ -413,7 +426,7 @@ text-decoration: none;
         .logo{
             width:35vw;
             height:auto;
-            margin-right: 55%; 
+            margin-right: 54%; 
         }
         .header-text{
             padding-top:12px ;
@@ -449,16 +462,20 @@ text-decoration: none;
             /* width: 1vw; */
             cursor:pointer;
     }
+
+    .container{
+        margin-top:-1vh;
+    }
   
     #sidemenu{
     
         border-bottom-right-radius:50px ;   
     }
     .container .subtitle{
-        font-size: 40px;
+        font-size: 30px;
     }
    .exp .subtitle{
-    font-size: 40px;
+    font-size: 30px;
    }
     .ivm{
    
@@ -505,6 +522,7 @@ text-decoration: none;
     }
     .swiper{
         width:80%;
+        margin-top: -25%;
         height:fit-content; 
     }
     .swiper-slide img{
@@ -527,11 +545,31 @@ text-decoration: none;
         text-align: center;
         margin-top: 30px;
     }
+
+    .ser{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .ser div{
+        background:  -webkit-linear-gradient(#d3bc47, #f86f2a);
+        padding: 40px;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 14px;
+        transition: background 0.5s, transform 0.5s;
+    
+    }
     .ser h2{
         font-size: 30px;
-        font-weight: 800;
-       align-items: center;
-       margin-left: -5vw;
+        font-weight: 750;
+       align-items: baseline;
+       /* margin-left: -30%; */
        display: inline;
        text-align: center;
     }
