@@ -401,22 +401,22 @@ text-decoration: none;
         }
     
         .web{
-            font-size: 15px;
+            font-size: 30px;
         }
         .header-text h1 span{
-            font-size: 20px;
+            font-size: 40px;
         }
         .honey{
-            margin-top: -120%;
+            margin-top: -160%;
         }
         .xyy{
-            max-width: 20%;
+            max-width: 50%;
             height: 50%;
            margin-left: 0vw;
            margin-top:0vh;
         }
         .header-text h1{
-            font-size:15px;
+            font-size:25px;
             margin-top:1vh ;
         }
         .containers{
