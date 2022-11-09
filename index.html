@@ -90,7 +90,7 @@
 
 
 <div class="abra">
-    <p class="abra">Some valuable feedbacks by our students</p>
+    <p class="abra">Some valuable feedback by our students</p>
     
 </div>
 <div class="co">
@@ -128,10 +128,10 @@
                <div class="subm">
                     <button type="submit" value="submit" class="submit">Submit</button>
                 </div>
-           
+                <span id="mng" class="hello"></span>
             </div>
         </form> 
-        <span id="mng" class="hello"></span>
+        
 
 </div>
 <div class="hello">
@@ -193,7 +193,7 @@ const mng = document.getElementById("mng")
         mng.innerHTML = "Message sent successfully"
         setTimeout(function(){
             mng.innerHTML = ""
-        },5000)
+        },3000)
         form.reset()
         sub_btn.style.display="";
       })
