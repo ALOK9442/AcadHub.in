@@ -52,7 +52,7 @@ nav{
 }
 
 .container{
-    margin-top: 45vh;
+    margin-top: 20vh;
     /* background-color: #080808; */
 }
 nav ul li{
@@ -82,7 +82,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: -80vh;
+    margin-top: -90vh;
     text-align: center;
     font-size: 30px;
    
@@ -93,18 +93,18 @@ nav ul li a:hover::after{
     margin-top: -93vh;
 }
 .xyy{
-    max-width: 10%;
+    max-width: 20%;
     height: auto;
    margin-left: 0vw;
    margin-top:1vh;
 }
 
 .header-text h1{
-font-size: 30px;
+font-size: 40px;
 margin-top:  10px;
 }
 .header-text h1 span{
-    font-size: 40px;
+    font-size: 70px;
   background: -webkit-linear-gradient(#f04623, #f8a72a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent ;
@@ -238,6 +238,8 @@ td{
     width: 30vw;
     height: 10vh;
     border: 2px solid rgb(111, 63, 18);
+    /* overflow-y: hidden; */
+    resize: none;
 }
 .subm{
     text-align: center;
