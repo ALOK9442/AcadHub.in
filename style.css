@@ -461,26 +461,27 @@ text-decoration: none;
 
         .sad {
             position: absolute;
-            width: 20%;
+            width: 15%;
             height: auto;
             margin-top: -46%;
             margin-left: 4%;
         }
         .koa {
             position: absolute;
-            width: 15%;
+            width: 12%;
             height: auto;
             margin-left:8%;
             margin-top: -130%;
         }
         .hak{
             position: absolute;
-            width: 20%;
+            width: 17%;
             height: auto;
-            margin-left:75%;
+            margin-left:88%;
             margin-top: -140%;
         }
         .lag{
+            display:none;
             position: absolute;
             width: 10%;
             height: auto;
@@ -489,28 +490,29 @@ text-decoration: none;
         }
         .gal{
             position: absolute;
-            width: 15%;
+            width: 12%;
             height: auto;
-            margin-left:72%;
-            margin-top: -50%;
+            margin-left:67%;
+            margin-top: -58%;
+            z-index: -50;
         }
         .algo{
             position: absolute;
-            width: 20%;
+            width: 15%;
             height: auto;
             margin-left:46%;
-            margin-top: -25%;
+            margin-top: -20%;
         }
         .galo{
             position: absolute;
-            width: 15%;
+            width: 12%;
             height: auto;
-            margin-left:10%;
+            margin-left:-5%;
             margin-top: -100%;
         }
         .plz{
             position: absolute;
-            width: 15%;
+            width: 10%;
             height: auto;
             margin-left:80%;
             margin-top: -100%;
@@ -522,12 +524,16 @@ text-decoration: none;
     
         .web{
             font-size: 30px;
+            
+           /* margin-top: -190%; */
+        
         }
         .header-text h1 span{
             font-size: 40px;
         }
         .honey{
-            margin-top: -160%;
+            margin-top: -160% !important;
+            
         }
         .xyy{
             max-width: 50%;
@@ -684,8 +690,8 @@ text-decoration: none;
     .ser div{
         background:  -webkit-linear-gradient(#d3bc47, #f86f2a);
         padding: 40px;
-        margin-left:2%;
-        margin-right:2%;
+        margin-left:4%;
+        margin-right:4%;
         font-size: 13px;
         font-weight: 300;
         border-radius: 14px;
@@ -693,12 +699,18 @@ text-decoration: none;
     
     }
     .ser h2{
-        font-size: 30px;
-        font-weight: 750;
-       align-items: baseline;
+        font-size: 2em;
+        font-weight: 700;
+        /* margin-left: -7vw; */
+       /* align-items: center; */
        /* margin-left: -30%; */
        display: inline;
-       text-align: center;
+       /* text-align: center; */
+       font-size: 30;
+       /* font-weight: 400; */
+      align-items: center;
+      /* margin-left: -28; */
+      display: inline;
     }
     footer{
         text-align: center;
