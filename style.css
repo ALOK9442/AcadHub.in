@@ -30,6 +30,7 @@ body{
 } */
 .containers{
     width:100vw;
+    height: 10vh;
     padding: 5px 3%;
     position:fixed;
     top:0;
@@ -45,7 +46,8 @@ nav{
  flex-wrap: wrap;
 }
 .logo{
-    width: 10vw;
+    margin-top:1.5vh;
+    width: 20vw;
     height:auto;
     /* margin-top: -40px; */
     /* margin-left: 90%; */
@@ -198,7 +200,7 @@ transform: translateY(-10px);
     text-align:center;
 }
 #feedback{
-    margin-top: -130px;
+    margin-top: -90px;
 }
 .rvp{
    
@@ -347,7 +349,8 @@ hr{
     }
 
    footer{
-    /* margin-top: 20%; */
+    margin-top: 5%;
+    padding: 20px;
     text-align: center;
      background-color: rgb(24, 24, 32);
    }
@@ -363,7 +366,8 @@ text-decoration: none;
     font-size: large;
    }
    .copy{
-    padding: 10px;
+    
+    padding: 20px;
     /* height: 5vh; */
     background-color: rgb(16, 16, 34);
     
