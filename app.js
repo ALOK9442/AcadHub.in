@@ -37,11 +37,11 @@ particlesJS('particles-js',
         "image": {
           "src": "img/github.svg",
           "width": 100,
-          "height": 100
+          "height": 100,
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.25,
         "random": false,
         "anim": {
           "enable": false,
@@ -69,7 +69,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 4,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -105,7 +105,7 @@ particlesJS('particles-js',
           "distance": 400,
           "size": 40,
           "duration": 2,
-          "opacity": 8,
+          "opacity": 2,
           "speed": 3
         },
         "repulse": {
