@@ -4,7 +4,13 @@
     font-family:'Montserrat';
     box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent; 
+}
 html{
+    overflow: scroll;
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
@@ -90,7 +96,7 @@ nav ul li a:hover::after{
     height: 67rem;
 }
 .xyy{
-    width: 30rem;
+    width: 22.5rem;
     height: auto;
    margin-top:1rem;
 }
@@ -153,7 +159,7 @@ nav ul li a:hover::after{
     text-align:center;
 }
 .container{
-    margin-top:20rem;
+    margin-top:30rem;
 }
 .ser{
     display: grid;
@@ -414,19 +420,56 @@ h3{
    }
 
 @media only screen and (max-width:819px){
+    ::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    
     html{
+        overflow: scroll;
+        scroll-behavior: smooth;
         font-size: 60%;
     }
-
-    
-    
+    .subtitle{
+        margin-top:80%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .sad{
+        margin-left:25%;
+        margin-top:5%;
+        width:6rem;
+    }
+    .hak{
+        margin-left:85%;
+        margin-top:4%;
+        width: 6rem;
+    }
+    .plz{
+        margin-left:85%;
+        width: 6rem;
+    }
+    .koa{
+        margin-left:-1.5rem;
+        width: 6rem;
+    }
     .lag{
+        display: none;
+        width: 6rem;
+        margin-top: 145%;
         margin-left:15%;
+    }
+    .galo{
+        margin-left:10%;
+        width: 6rem;
     }
     .gal{
         display: none;
     }
     .algo{
+        width: 7rem;
         margin-left: 79%;
     }
     .fasfa{
@@ -466,7 +509,7 @@ h3{
 }
 
     #particles-js{
-        margin-top:1rem;
+        margin-top:-3rem;
         height: 80rem;
     }
     .abra{
@@ -523,7 +566,7 @@ h3{
         text-align:center;
     }
     .container{
-        margin-top:15rem;
+        margin-top:25rem;
         padding-bottom: 10rem;
     }
     .ser{
@@ -565,4 +608,53 @@ h3{
     .copy{
         font-size: 1rem;
     }
+    .xyy{
+        width: 15rem;
+        height: auto;
+    }
+    .co{
+        width: 100%;
+            height: 35vh;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+    }
+    #feedback{
+        margin-top:-15rem;
+    }
 } 
+@media screen and (max-width:300px){
+    
+  
+    .container{margin-top: 30rem;
+    }
+    .algo{
+        margin-left: 75%;
+    }
+    .galo{
+        margin-left: 0rem;
+        width: 5rem;
+    }
+    .koa{
+        width: 5rem;
+        margin-top: 50rem;
+        margin-left: 0.1rem;
+    }
+    .hak{
+        width: 5rem;
+        margin-left: 22rem;
+    }
+    .plz{
+        margin-left: 23rem;
+    }
+    .lag{
+        width: 5rem;
+        display: block;
+        margin-top: 220%;
+        margin-left: 40%;
+    }
+    .logo{
+        margin-right: 14rem;
+    }
+    
+}
