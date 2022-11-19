@@ -487,12 +487,11 @@ h3{
         display:block;
         margin:2.5rem;
     }
-    
     nav ul .fas{
         position:absolute;
-        top:6%;
-        left:10%; 
-        font-size:3rem;
+        top:1%;
+        left:1%; 
+        font-size:4rem;
         cursor:pointer;
         color: #ababab;
         display: block;
@@ -615,6 +614,12 @@ h3{
     }
     #feedback{
         margin-top:-15rem;
+    }
+    .nvm div h2{
+        font-size: 2rem;
+        font-weight: 700;
+       text-align:center;
+       display: inline;
     }
 } 
 @media screen and (max-width:300px){
